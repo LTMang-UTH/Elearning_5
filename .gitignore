@@ -1,0 +1,43 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Certificates (sensitive)
+certs/**/*.key
+certs/**/*.pem
+certs/**/*.der
+certs/**/*.pfx
+certs/**/*.p12
+certs/**/*.crt
+certs/**/*.csr
+!certs/README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
