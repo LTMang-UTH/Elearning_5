@@ -57,6 +57,6 @@ Elearning-5/
     └── load-test/              # Load Testing Tool
         └── main.go
 ```
-KẾT QUẢ
+KẾT QUẢ:
 ![](demo.png)
 ![](demo1.png)
