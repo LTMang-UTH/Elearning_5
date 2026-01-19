@@ -40,19 +40,20 @@ go run main.go -clients 1000 -duration 60s -message-rate 20
 ```
 Elearning-5/
 ├── generate-certs.go          # Tool tạo SSL certificates
-├── go.mod                      # Dependencies
+├── go.mod                     # Go module dependencies
+├── go.sum                     # Go module checksums
 │
-├── certs/                      # SSL Certificates (auto-generated)
-│   ├── ca/                     # Certificate Authority
-│   ├── server/                 # Server certificates
-│   └── client/                 # Client certificates
+├── certs/                     # SSL Certificates (auto-generated)
+│   ├── ca/                    # Certificate Authority
+│   ├── client/                # Client certificates
+│   └── server/                # Server certificates
 │
 └── websocket/
-    ├── server/                 # WebSocket Server
+    ├── client/                # WebSocket Client
     │   └── main.go
-    ├── client/                 # WebSocket Client
+    ├── load-test/             # Load Testing Tool
     │   └── main.go
-    └── load-test/              # Load Testing Tool
+    └── server/                # WebSocket Server
         └── main.go
 ```
 ## KẾT QUẢ:
